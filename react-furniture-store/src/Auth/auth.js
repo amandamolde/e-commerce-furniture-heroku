@@ -7,7 +7,7 @@ export default class Auth {
   auth0 = new auth0.WebAuth({
     domain: 'marketp.auth0.com',
     clientID: 'XMPEojETHuJbyZY6hyp10UP0fmoNEBd0',
-    redirectUri: 'https://e-commerce-furniture.herokuapp.com/callback/',
+    redirectUri: 'https://e-commerce-furniture.herokuapp.com/callback',
     responseType: 'token id_token',
     scope: this.requestedScopes,
   });

@@ -29,7 +29,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.text());
 
 const corsOptions = {
-    origin: 'http://localhost:3000',
+    origin: 'https://e-commerce-furniture.herokuapp.com/',
     credentials: true,
     optionsSuccessStatus: 200,
 };
