@@ -51,3 +51,6 @@ app.use('/charge', stripeController);
 app.listen(9000, () => {
     console.log('API is listening on port 9000');
 });
+
+// Serve static files from the React app
+app.use(express.static(path.join(__dirname, 'react-furniture-store/build')));
