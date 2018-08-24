@@ -8,6 +8,10 @@
     "dev": "nodemon server.js",
     "heroku-postbuild": "cd react-furniture-store && npm install && npm run build"
   },
+  "engines": {
+    "node": "8.11.2",
+    "npm": "6.4.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/amandamolde/marketplaceAPI.git"
