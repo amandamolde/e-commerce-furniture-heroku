@@ -1,7 +1,7 @@
 // Set-up db connection
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost:27017/marketplace', { useNewUrlParser: true });
+mongoose.connect('mongodb://e-commerce-user:password1@ds131932.mlab.com:31932/e-commerce-furniture', { useNewUrlParser: true });
 
 mongoose.connection.on('connected', () => {
     console.log('Mongoose is connected');
