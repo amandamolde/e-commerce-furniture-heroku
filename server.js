@@ -5,6 +5,7 @@ const cors              = require('cors');
 const session           = require('express-session');
 const methodOverride    = require('method-override');
 const stripe = require("stripe")("sk_test_TwTTlid3GeOG6YPydOjARw4I");
+const path = require('path');
 
 // Requrie db
 require('./db/db');
