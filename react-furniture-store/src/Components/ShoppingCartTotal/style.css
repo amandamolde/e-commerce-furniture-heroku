@@ -1,0 +1,14 @@
+.shopping-cart-total-component {
+    margin: 0;
+    padding: 0;
+    border: 1px solid #93004E;
+    font-family: 'Raleway', sans-serif !important;
+    text-align: center;
+    font-size: 17px !important;
+  }
+
+  .shopping-cart-total-component p{
+    font-size: 17px !important;
+    font-family: 'Raleway', sans-serif !important;
+    margin: 0
+  }

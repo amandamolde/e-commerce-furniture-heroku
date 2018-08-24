@@ -1,0 +1,79 @@
+/* *{
+  font-family: 'Raleway', sans-serif !important;
+}
+
+  .item-card-modal-button{
+    text-align: center;
+    background-color: #BACFE4 !important
+  } */
+
+
+  .item-card-modal-button img{
+    height: 200px;
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    border: 2px solid #D8C86E !important;
+  }
+  
+  .modal-content img{
+    height: 80%;
+    width: 80%;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+  }
+  
+  /* .modal-header{
+    margin: 0 auto
+  } */
+
+  button{
+    background-color: #93004E !important;
+    color: #D8C86E !important;
+    max-width: 200px;
+    min-width: 150px;
+    border-radius: 5px !important;
+   
+  }
+
+  .modal-header, .modal-footer{
+    background-color: #C1304D !important;
+    color: #D8C86E !important;
+  }
+
+  /* .item-card-modal-body p{
+    background-color: #C1304D !important;
+    color: #D8C86E !important;
+  } */
+
+  .item-description-box, .item-price, .item-price-title{
+    background-color: #C1304D !important;
+    color: #D8C86E !important;
+    
+
+    /* text-align: center; */
+  }
+
+ .item-price-div p{
+    background-color: #C1304D !important;
+    color: #D8C86E !important;
+    
+
+    /* text-align: center; */
+  }
+
+  .item-description-title, .item-price-title{
+    text-decoration: underline;
+  }
+
+  .item-description{
+    text-indent: 8px ;
+    color: white !important;
+    text-decoration: none;
+    /* text-align: center; */
+  }
+
+  .item-price{
+    color: white !important;
+    /* text-decoration: none; */
+  }

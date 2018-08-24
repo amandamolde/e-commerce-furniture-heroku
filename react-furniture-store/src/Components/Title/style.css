@@ -1,0 +1,19 @@
+.title-component {
+    margin: 2px auto;
+    padding: 0;
+    background-color: #93004E;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    color: #D9F296;
+    border: 2px solid rgba(218, 242, 151, 0.5);
+
+   
+  }
+
+  .title-component img{
+    height: 50px;
+    width: 50px;
+    border: 1px solid #D9F296;
+   background-color: white;
+   margin: 5px 5px;
+  }

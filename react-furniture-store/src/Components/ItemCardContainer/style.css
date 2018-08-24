@@ -1,0 +1,30 @@
+/* .item-card-component {
+    margin: 0;
+    padding: 0;
+    border: 1px solid green;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    display:inline-block !important;
+    width: 40%;
+    height: 0%
+  }
+
+  .item-card-component-modal-div{
+    display:inline-block !important;
+    /* width: 40% */
+  /* } */ 
+
+.col{
+  margin: 0 auto;
+  padding: 0
+}
+
+.item-card-container-title{
+  text-align: center;
+  padding: 0;
+
+}
+
+.item-card-col{
+  text-align: center
+}
