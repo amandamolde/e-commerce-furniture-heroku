@@ -13,6 +13,9 @@ require('./db/db');
 // Set view engine for upload test
 app.set('view engine', 'ejs');
 
+// Serve static files from the React app
+app.use(express.static(path.join(__dirname, 'react-furniture-store/build')));
+
 // Use session
 app.use(session({
     secret: 'shop small',
@@ -48,9 +51,8 @@ app.use('/', uploadController);
 app.use('/checkout', checkoutController);
 app.use('/charge', stripeController);
 
-app.listen(9000, () => {
-    console.log('API is listening on port 9000');
-});
+const port = process.env.PORT || 9000;
 
-// Serve static files from the React app
-app.use(express.static(path.join(__dirname, 'react-furniture-store/build')));
+app.listen(port, () => {
+    console.log('API is listening on ' + port);
+});
