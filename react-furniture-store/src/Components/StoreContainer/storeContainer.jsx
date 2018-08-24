@@ -27,7 +27,7 @@ class StoreContainer extends Component {
         });
     };
     getItems = async () => {
-        const items = await fetch('https://furnitureapi.herokuapp.com/api/v1/items', {
+        const items = await fetch('https://e-commerce-furniture.herokuapp.com/api/v1/items', {
             credentials: 'include',
             method: "GET" 
         });
@@ -83,7 +83,7 @@ class StoreContainer extends Component {
         console.log(checkout)
         e.preventDefault();
         try {
-            const createCheckout = await fetch('https://furnitureapi.herokuapp.com/checkout/', {
+            const createCheckout = await fetch('https://e-commerce-furniture.herokuapp.com/checkout/', {
                 method: 'POST',
                 credentials: 'include',
                 body: JSON.stringify(checkout),
@@ -103,7 +103,7 @@ class StoreContainer extends Component {
     async submit(ev) {
         console.log("checkout form submitted")
         let {token} = await this.props.stripe.createToken({name: "Name"});
-        let response = await fetch("https://furnitureapi.herokuapp.com/charge", {
+        let response = await fetch("https://e-commerce-furniture.herokuapp.com/charge", {
           method: "POST",
           headers: {"Content-Type": "text/plain"},
           body: token.id
