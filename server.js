@@ -16,6 +16,11 @@ app.set('view engine', 'ejs');
 // Serve static files from the React app
 app.use(express.static(path.join(__dirname, 'react-furniture-store/build')));
 
+// Point back to index.html
+app.get('/**', (request, response) => {
+	response.sendFile(path.join(__dirname, 'eact-furniture-store/build', 'index.html'));
+});
+
 // Use session
 app.use(session({
     secret: 'shop small',
