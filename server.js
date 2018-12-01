@@ -18,7 +18,7 @@ app.use(express.static(path.join(__dirname, 'react-furniture-store/build')));
 
 // Point back to index.html
 app.get('/**', (request, response) => {
-	response.sendFile(path.join(__dirname, 'eact-furniture-store/build', 'index.html'));
+	response.sendFile(path.join(__dirname, 'react-furniture-store/build', 'index.html'));
 });
 
 // Use session
